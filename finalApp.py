@@ -5,7 +5,7 @@ from keras.preprocessing import image
 from PIL import Image
 
 # Load the model
-model = load_model('model.keras')
+model = load_model('finalExamIMG.keras')
 
 # Function to preprocess the uploaded image
 def preprocess_image(img):
