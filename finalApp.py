@@ -12,7 +12,7 @@ def preprocess_image(img):
     return img_array
 
 model = load_model('finalExamIMG.keras')
-classes = ['Amoeba', 'Euglena', 'Hydra', 'Paramecium', 'Rod_bacteria', 'Spherical bacteria', 'Spiral bacteria', 'Yeast']
+classes = ['Amoeba', 'Euglena', 'Hydra', 'Paramecium', 'Rod bacteria', 'Spherical bacteria', 'Spiral bacteria', 'Yeast']
 
 st.title("Bacteria Classification")
 
