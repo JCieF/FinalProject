@@ -2,11 +2,10 @@ import streamlit as st
 import numpy as np
 from keras.models import load_model
 from keras.preprocessing import image
-import matplotlib.pyplot as plt
 from PIL import Image
 
 # Load the model
-model = load_model('finalExamIMG.keras')
+model = load_model('model.keras')
 
 # Function to preprocess the uploaded image
 def preprocess_image(img):
