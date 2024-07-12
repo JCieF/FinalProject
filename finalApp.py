@@ -32,5 +32,6 @@ if uploaded_file is not None:
 
     # Display the image
     st.image(img, caption='Uploaded Image', use_column_width=True)
-    st.write(f'Predicted class: {predicted_class_name}')  # Show class name
-    st.write('Prediction probabilities:', prediction)
+    
+    # Display the predicted bacteria type with increased font size
+    st.markdown(f"<h2 style='font-size: 24px;'>Bacteria Type: {predicted_class_name}</h2>", unsafe_allow_html=True)
